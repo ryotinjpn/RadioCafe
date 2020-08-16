@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#444444">
+
+    <TextView
+        android:id="@+id/list_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:paddingBottom="5sp"
+        android:paddingRight="10sp"
+        android:paddingLeft="10sp"
+        android:paddingTop="5sp"
+        android:text=""
+        android:textSize="@dimen/font_size_bar"
+        android:textColor="#ffffff"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_list"
+        android:layout_below="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:divider="#444444"
+            android:dividerHeight="2sp"
+            android:fadingEdgeLength="10sp"
+            android:background="@color/blackcolor"/>
+
+        <TextView
+            android:id="@android:id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/blackcolor"/>
+    </LinearLayout>
+
+</RelativeLayout>

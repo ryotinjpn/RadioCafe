@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Radio Cafe</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="comiradi">▼コミラジで放送局や番組を探す</string>
+    <string name="wadai">近くの話題＜Podcast＞を探す</string>
+    <string name="station">近くのコミュニティFM局を探す</string>
+    <string name="community_podcast">県別Podcast一覧</string>
+    <string name="community_radio">県別放送局一覧</string>
+    <string name="community_radio_group">放送局グループ一覧</string>
+    <string name="genre">▼番組ジャンル一覧</string>
+    <string name="onair">ON AIR情報Twitter</string>
+    <string name="today_program">今日の番組表</string>
+    <string name="method">ラジオカフェのアプリ</string>
+    <string name="about">ラジオカフェについて</string>
+    <string name="tunein">TuneIn Radioでライブを聴く</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">facebook</string>
+    <string name="youtube">YouTube</string>
+    <string name="ustream">Ustream</string>
+    <string name="disaster">防災・災害</string>
+    <string name="description">このアプリについて</string>
+
+    <string name="bar">特別配信番組</string>
+    <string name="bar_2">最新の放送音源･動画</string>
+    <string name="bar_3">▼ラジオカフェ・トピックス</string>
+
+    <string name="honnosommelier">本のソムリエ</string>
+    <string name="kango">行列のできる訪問看護ステーション</string>
+    <string name="fukuraji">ふくらじ</string>
+    <string name="kukansosei">KYOTO space fountain ～きょうと空間創生術～</string>
+    <string name="otome">はるのと京子の乙女な時間</string>
+    <string name="shimogamoseven">下鴨セブン</string>
+    <string name="heartfull">ハートフルジェネレーション</string>
+    <string name="sanjyomeiten">おこしやす三条名店街</string>
+    <string name="nishiki">錦市場でお買い物</string>
+    <string name="gcom">京からGreen\nコミュニケーション！</string>
+
+    <string name="fm797_live">放送を聴く</string>
+    <string name="mail">メッセージ</string>
+    <string name="podcast_play">PODCAST>></string>
+    <string name="next">続きを見る>></string>
+
+    <string name="description_1">FM797京都三条ラジオカフェ\nオリジナルAndroidアプリ ”Radio Café”</string>
+    <string name="description_2">◆概要\n
+        このアプリはNPO京都コミュニティ放送が制作・配布するAndroid端末向けのFM797京都三条ラジオカフェ公式アプリです。FM797ライブ放送や特別配信番組をポッドキャストで日本全国、世界中に配信しています。FM797京都三条ラジオカフェは京都市及びその周辺地域をサービスエリアとするコミュニティFM放送です。\n\n
+
+        ◆バージョン\n
+        2.0.8\n\n
+
+        ◆更新履歴\n
+         ･一部修正\n
+        (2018/8/2)\n\n
+
+        ･特別配信番組を追加\n
+        『ハートフルジェネレーション』\n
+        (2017/6/28)\n\n
+
+        ･特別配信番組を追加\n
+        『被爆者の証言を世界に！』\n
+        (2016/11/9)\n\n
+
+        ･特別配信番組を追加\n
+        『はるのと京子の乙女な時間』\n
+        (2016/10/1)\n\n
+
+        ･特別配信番組を追加\n
+        『きょうと空間創生術』\n
+        (2015/7/17)\n\n
+
+        ･特別配信番組を追加\n
+        『KYOTOハピ☆ラジ』\n
+        『ふくらじNight』\n
+        (2015/6/24)\n\n
+
+        ･特別配信番組を追加\n
+        『ふくらじ』\n
+        (2015/4/2)\n\n
+
+        ･一部修正\n
+        (2014/12/3)\n\n
+
+        ･全国のコミュニティFM放送局のPodcastポータルサイト『コミラジ』を追加</string>
+    <string name="description_3">
+        http://comiradi.jp/</string>
+    <string name="description_4">
+        ･デザインを変更\n
+        ･特別配信番組を追加\n
+        『京都舞鶴∞鮮魚放送局～漁師とさかな屋さんからこんにちは～』\n
+        (2014/10/10)\n\n
+
+        ･特別配信番組を追加\n
+        『来ておくれやす！二条繁栄会 特別番組』\n
+        ･Andoirdのバージョンによりストリーミングが再生されない不具合修正\n
+        (2014/1/15)\n\n
+
+        ･特別配信番組を追加\n『本のソムリエ』\n(2013/12/11)\n\n
+        ･ストリーミング再生機能修正\n(2013/11/15)\n\n\n･特別配信番組を追加\n
+        『和束の茶々茶～茶源郷ものがたり～』\n
+        『にぎわいラジオかめおか★開局準備編』\n(2013/11/5)\n\n
+
+        ･特別配信番組を追加\n『ツキイチ、東山』\n
+        『ティピカフェ畑倶楽部』\n･一部デザイン変更\n
+        (2013/6/28)\n\n
+
+        ･特別配信番組を追加\n
+        『Taxふりー』\n
+        『FM797 短期/特別番組』\n
+        『FM797 制作番組』\n
+        (2013/4/12)\n\n
+
+        ･特別配信番組を追加\n
+        『たんご･ふるさとラジオ』\n
+        『元気が出る“医良”』\n
+        (2013/2/1)\n\n
+
+        ･特別配信番組を追加\n
+        『いいこと（古都）100人でできるかな？』\n
+        (2013/1/8)\n\n
+
+        ･特別配信番組を追加\n
+        『下鴨セブン』\n
+        (2012/11/16)\n\n
+
+        ･特別配信番組を追加\n
+        『京☆たのしまNight』\n
+        (2012/9/27)\n\n
+
+        ･特別配信番組を追加\n
+        『京からGreenコミュニケーション！』\n
+        『おこしやす三条名店街』\n
+        『環境市民のエコまちライフ』\n
+        ･SDカード保存機能追加\n
+        ･一部デザイン変更\n
+        (2012/8/3)\n\n
+
+        ◆推奨環境\nAndroid 4.0以上\n\n
+
+        ◆主な機能\n
+        ･FM797ストリーミングライブ放送の聴取（24時間オリジナルプログラム）\n
+        ･特別配信番組ポッドキャストの聴取\n
+        ･ラジオカフェへのメール発信機能\n
+        ･Facebook, Twitter, Youtube, Ustreamなどの閲覧機能\n\n
+
+        ◆災害時の活用\n
+        京都市および周辺地域の災害時にはストリーミング（ライブ）放送等で必要な情報を入手してください。\n\n
+
+        ◆料金・費用\n
+        FM797京都三条ラジオカフェの番組やストリーミング放送の聴取、閲覧に費用はかかりませんが、広告や外部リンクには有料のサービスが含まれる場合がありますので、ご注意ください。ただし、インターネット接続に必要な費用や通信料、携帯電話のパケット通信料などはお客様のご負担となります。また、パケット定額契約未加入の場合、通信料が高額になるおそれがありますのでご注意ください。\n\n
+
+        ◆本アプリについてのお問合せ・ご要望は以下までお寄せください。\n
+        企画制作： NPO京都コミュニティ放送／FM797京都三条ラジオカフェ\n
+        アプリ紹介ページ：http://radiocafe.jp/smartphone/\ninfo@radiocafe.jp\n
+        TEL 075-253-6900　\n
+        ※受付時間：月～金曜日 10:00-18:00（祝祭日・年末年始は受付しておりません。）
+    </string>
+    <string name="description_5">(C)特定非営利活動法人　京都コミュニティ放送</string>
+    <string name="share_button">シェア</string>
+
+    <dimen name="font_size_button">15sp</dimen>
+    <dimen name="font_size_small">10sp</dimen>
+    <dimen name="font_size_description">20sp</dimen>
+    <dimen name="font_size_bottom_button">13sp</dimen>
+    <dimen name="font_size_bar">15sp</dimen>
+
+    <color name="blackcolor">#000000</color>
+    <color name="whitecolor">#FFFFFF</color>
+    <color name="redcolor">#FF0000</color>
+    <color name="bluecolor">#0066FF</color>
+    <color name="buttoncolor">#FFFFCC</color>
+
+</resources>

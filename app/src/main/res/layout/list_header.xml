@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bar1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#444444"
+            android:gravity="center_vertical"
+            android:text="@string/bar"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_size_bar"
+            android:paddingBottom="5sp"
+            android:paddingRight="10sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="5sp"/>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bar1">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_honnosommelier"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_honnosommelier"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/honnosommelier"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_honnosommelier"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/honnosommelier"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_kango"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_kango"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/kango"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_kango"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/kango"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_fukuraji"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_fukuraji"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/fukuraji"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_fukuraji"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:text="@string/fukuraji"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_kukansosei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_kukansosei"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/kukansosei"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_kukansosei"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/kukansosei"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_otome"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_otome"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/otome"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_otome"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/otome"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_shimogamoseven"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_shimogamoseven"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/shimogamoseven"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_shimogamoseven"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/shimogamoseven"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_heartfull"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_heartfull"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/heartfull"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_heartfull"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/heartfull"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_sanjyomeiten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_sanjyomeiten"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/sanjyomeiten"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_sanjyomeiten"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/sanjyomeiten"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_nishiki"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_nishiki"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/nishiki"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_nishiki"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/nishiki"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_gcom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/button_gcom"
+                        android:layout_width="100.0sp"
+                        android:layout_height="100.0sp"
+                        android:background="@drawable/gcom"
+                        android:onClick="onClickButton" />
+
+                    <TextView
+                        android:id="@+id/textview_gcom"
+                        android:layout_width="100.0sp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="@string/gcom"
+                        android:textSize="@dimen/font_size_small"
+                        android:textColor="@color/whitecolor"
+                        android:background="@color/blackcolor"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horizontalScrollView"
+            android:background="#444444"
+            android:paddingBottom="5sp"
+            android:paddingRight="10sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="5sp"
+            android:gravity="center_vertical"
+            android:text="@string/bar_2"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_size_bar" />
+
+</RelativeLayout>

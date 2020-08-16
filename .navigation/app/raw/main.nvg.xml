@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "jp.co.se.android.RadioCafe.ItemDetailActivity"/>
+      <point      
+        x = "520"      
+        y = "8921"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "jp.co.se.android.RadioCafe.ItemDetailActivity"/>
+      <point      
+        x = "520"      
+        y = "4884"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "jp.co.se.android.RadioCafe.MainActivity"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "jp.co.se.android.RadioCafe.MainActivity"/>
+      <point      
+        x = "1768"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "jp.co.se.android.RadioCafe.Gps"/>
+      <point      
+        x = "520"      
+        y = "11787"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "jp.co.se.android.RadioCafe.Gps"/>
+      <point      
+        x = "553"      
+        y = "7782"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "jp.co.se.android.RadioCafe.TopicsIntent"/>
+      <point      
+        x = "500"      
+        y = "1516"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "jp.co.se.android.RadioCafe.TopicsIntent"/>
+      <point      
+        x = "1768"      
+        y = "1516"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "jp.co.se.android.RadioCafe.ProgramIntent"/>
+      <point      
+        x = "802"      
+        y = "3103"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "jp.co.se.android.RadioCafe.ProgramIntent"/>
+      <point      
+        x = "1118"      
+        y = "3139"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "jp.co.se.android.RadioCafe.Webview"/>
+      <point      
+        x = "3036"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "jp.co.se.android.RadioCafe.Webview"/>
+      <point      
+        x = "4304"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "jp.co.se.android.RadioCafe.Pdfviewer"/>
+      <point      
+        x = "560"      
+        y = "6388"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "jp.co.se.android.RadioCafe.Pdfviewer"/>
+      <point      
+        x = "544"      
+        y = "10368"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "jp.co.se.android.RadioCafe.Description"/>
+      <point      
+        x = "6840"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "jp.co.se.android.RadioCafe.Description"/>
+      <point      
+        x = "5572"      
+        y = "100"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10.0sp" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/whitecolor"
+        android:paddingRight="15sp"
+        android:paddingLeft="15sp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="7.0sp" />
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="3"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/whitecolor"
+        android:paddingRight="15sp"
+        android:paddingLeft="15sp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10.0sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_below="@+id/play_button"
+        android:layout_width="fill_parent"
+        android:layout_height="2sp"
+        android:background="#90949494"
+        />
+</LinearLayout>

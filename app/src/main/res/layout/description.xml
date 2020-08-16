@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_description1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/description_1"
+                android:textSize="@dimen/font_size_description" />
+
+            <TextView
+                android:id="@+id/textview_description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_2"
+                android:textSize="@dimen/font_size_description"
+                />
+
+            <TextView
+                android:id="@+id/textview_description3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/description_3"
+                android:textSize="@dimen/font_size_description"
+                android:textColor="#00BFFF"
+                android:clickable="true"
+                android:onClick="Comiradi"/>
+
+            <TextView
+                android:id="@+id/textview_description4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_4"
+                android:textSize="@dimen/font_size_description" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

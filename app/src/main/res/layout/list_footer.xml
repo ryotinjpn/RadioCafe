@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer_layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/button_next"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0sp"
+        android:background="@drawable/border2"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClickHoge"
+        android:text="@string/next" >
+    </TextView>
+
+</LinearLayout>

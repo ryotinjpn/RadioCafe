@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/viewWait"
+        android:layout_width="112sp"
+        android:layout_height="63sp"
+        android:layout_marginBottom="1sp">
+
+        <!-- リスト画像読込中に表示するプログレスバー -->
+
+        <ProgressBar
+            android:id="@+id/WaitBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ImageThumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                android:visibility="gone" />
+
+            <!--Button
+                android:id="@+id/movie_button"
+                android:layout_width="31.2sp"
+                android:layout_height="22.1sp"
+                android:background="@drawable/youtube"
+                android:focusable="false"
+                android:onClick="onClickButton"
+                android:layout_centerInParent="true"
+                android:visibility="gone" /-->
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="112sp"
+        android:layout_height="25sp"
+        android:layout_below="@+id/viewWait"
+        android:layout_marginBottom="8sp"
+        android:layout_marginTop="7sp"
+        android:layout_toLeftOf="@+id/item_title"
+        android:background="@drawable/button_podcast"
+        android:focusable="false"
+        android:onClick="onClickButton"
+        android:paddingBottom="2sp"
+        android:paddingTop="2sp"
+        android:text="@string/podcast_play"
+        android:textColor="#ffffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_program_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3sp"
+        android:layout_marginLeft="2sp"
+        android:layout_marginTop="3sp"
+        android:layout_toRightOf="@+id/viewWait"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/whitecolor"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_program_title"
+        android:layout_marginRight="3sp"
+        android:layout_marginLeft="2sp"
+        android:layout_marginTop="1sp"
+        android:layout_toRightOf="@+id/viewWait"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/whitecolor"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_title"
+        android:layout_marginRight="3sp"
+        android:layout_marginLeft="2sp"
+        android:layout_marginTop="3sp"
+        android:layout_toRightOf="@+id/viewWait"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/whitecolor"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_below="@+id/play_button"
+        android:layout_width="fill_parent"
+        android:layout_height="2sp"
+        android:background="#90949494" />
+
+</RelativeLayout>
